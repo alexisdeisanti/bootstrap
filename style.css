@@ -1,0 +1,65 @@
+
+body{background-color: #F1FF2F;
+color:#8147B2;
+font-family: Verdana;}
+/* Social Icons
+------------------------------------------------------------ */
+ #social li{
+ 	float: left;
+	list-style-type: none; 
+}
+
+#social li a{
+	float: left;
+	height: 23px;
+	width: 23px;
+	text-indent: -9999px;
+	background-image: url("images/social-icons.png");
+}
+
+#social .tw{
+	background-position: 0 0;
+
+}
+
+#social .tw:hover{
+	background-position: 0 -23px;
+}
+#social .fb{
+	background-position: -23px 0;
+
+}
+
+#social .fb:hover{
+	background-position: -23px -23px;
+}
+#social .rss{
+	background-position: -46px 0;
+
+}
+
+#social .rss:hover{
+	background-position: -46px -69px;
+}
+#social .plus{
+	background-position: 23px 0;
+
+}
+
+#social .plus:hover{
+	background-position: 23px -23px;
+}
+/* Font Awesome
+------------------------------------------------------------ */
+#fontawesome li{
+	float: left;
+	list-style-type: none;
+	letter-spacing: 3px;
+}
+
+#fontawesome li:hover{
+	color: red;
+}
+ 
+.fa.fa-bug{color:red;}
+.fa.fa-bug:hover{color:black;}
